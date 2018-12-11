@@ -1,13 +1,20 @@
 # EANM
-Simple settings manager for EVE. Set up your settings on one character, then use EANM to reflect your changes on all your characters !
-
-# Installation
-1. Download jar file (https://github.com/Bertral/EANM/raw/master/out/artifacts/EANM_jar/EANM.jar) or build it from source (this is an IDEA project).
-2. Locate your settings directory (which should be in /users/USERNAME/Local Settings/Application Data/CCP/EVE/c_tq_tranquility/ or similar)
-3. Place EANM.jar inside the settings directory, where all your "core_char_XXXXXX.dat" are.
+Simple settings manager for EVE. Set up your settings on one character,
+then use EANM to reflect your changes on all your characters !
 
 # Usage
 0. It is highly recommended that you backup your settings before using EANM.
-1. Chose wether you want your "main" (the settings that will overwrite all the others) to be the oldest of all the characters ever used on your computer, or the most recently used (as in "logged in") character on your computer.
-2. Chose wether you want character specific, account specific, or all settings to be overwitten.
-3. Click "Overwrite".
+1. If the settings directory was not automatically detected, browse to it
+using the Browse button.
+2. Choose the source account or/and the source character and which accounts/users
+settings should be overwritten.
+3. Click on "Copy (Overwrite)" for the settings you want to overwrite.
+
+If you only want to overwrite some of the users/characters, you can select
+only those in the list. By default every user/character that is not the
+source is overwritten.
+
+Each character is displayed in the form "identifier - Char Name - Last connection date",
+the users are displayed in the form "identifier - Last connection date". If they
+are defined in a profile or for an another server than Tranquility, this
+is displayed in front of the line.
